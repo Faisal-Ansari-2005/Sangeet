@@ -1,0 +1,22 @@
+* SingersList.css */
+
+.singers-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.singer-item {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.singer-item img {
+  width: 100%;
+  height: auto;
+}
+
+.singer-details {
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+.aside-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 80vh;
+  overflow: auto;
+  border-right: 1px solid #ffffff;
+  .p1 {
+    border-bottom: 1px solid #ffffff;
+    padding: 15px;
+    font-weight: bolder;
+    color: white;
+    user-select: none;
+  }
+  .lib-sub {
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .MuiButton-startIcon{
+      color: #ffffff;
+    }
+  }
+  .aside-bar-container {
+    background:linear-gradient(to top, #000428, #004e92);
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+  .playlist{
+    background: linear-gradient(to bottom, #000428, #004e92);
+    flex: 1;
+    .p1{
+      border-top: 1px solid #ffffff;
+    }
+    .lib-sub{
+      color: white;
+    }
+    .lib-sub:hover{
+      background-color: #0C359E;
+    }
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .aside-bar {
+    display: none;
+  }
+}

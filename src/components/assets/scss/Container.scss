@@ -1,0 +1,14 @@
+.Container{
+  background:linear-gradient(to right, #000428, #004e92);
+  // background-color: rgb(0, 0, 0);
+  height: 80vh;
+  overflow-y: auto;
+  >div{
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .Container {
+    height: 70vh;
+  }
+}
